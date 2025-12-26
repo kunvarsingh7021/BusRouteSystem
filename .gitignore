@@ -1,0 +1,39 @@
+# ================= OS FILES =================
+.DS_Store
+Thumbs.db
+
+# ================= JAVA =================
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# ================= BUILD DIRECTORIES =================
+/build/
+/dist/
+/out/
+/target/
+
+# ================= NETBEANS =================
+/nbproject/private/
+/nbproject/cache/
+/nbproject/Makefile-*
+/nbproject/genfiles.properties
+
+# ================= IDE =================
+.idea/
+.vscode/
+
+# ================= SERVER =================
+/glassfish/
+/tomcat/
+
+# ================= DATABASE =================
+*.db
+*.lock
+
+# ================= TEMP FILES =================
+*.tmp
+*.bak
+*.swp
