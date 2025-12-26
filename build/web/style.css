@@ -1,0 +1,112 @@
+/* ================= GLOBAL ================= */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #f8fafc, #e2e8f0);
+    padding: 30px;
+    text-align: center;
+    color: #1f2937;
+}
+
+/* ================= HEADINGS ================= */
+h2 {
+    margin-bottom: 10px;
+    color: #1e3a8a;
+}
+
+h3 {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    color: #334155;
+}
+
+/* ================= CARD (FORMS) ================= */
+.card {
+    background: white;
+    width: 360px;
+    margin: 20px auto;
+    padding: 22px;
+    border-radius: 16px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+/* ================= INPUTS ================= */
+input {
+    width: 100%;
+    padding: 11px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #cbd5f5;
+    font-size: 14px;
+}
+
+/* ================= BUTTONS ================= */
+button {
+    width: 100%;
+    padding: 11px;
+    margin-top: 10px;
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+button i {
+    margin-right: 6px;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #1e40af, #1e3a8a);
+    transform: translateY(-2px);
+}
+
+/* ================= TABLE ================= */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+th {
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    color: white;
+    padding: 12px;
+    font-size: 14px;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #e5e7eb;
+    font-size: 14px;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:hover {
+    background: #f1f5f9;
+}
+
+/* ================= INFO TEXT ================= */
+.info,
+p {
+    color: #475569;
+    font-size: 14px;
+}
+
+/* ================= ICONS ================= */
+i {
+    color: #2563eb;
+}
